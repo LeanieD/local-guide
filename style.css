@@ -1,0 +1,11 @@
+body {
+    font-family: 'Anton';
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.header {
+    font-family: 'Anton', sans-serif;
+    font-size: 45px;
+    color: #8e0b07;
+}
