@@ -1,11 +1,68 @@
-body {
-    font-family: 'Anton';
-    font-size: 18px;
-    line-height: 1.6;
+body   {
+  font-family: "Libre Bodoni", serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 35px;
+  max-width: 10000px;
 }
 
-.header {
+.content-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.content-row img {
+    width: 660px;
+    height: auto;
+    border-radius: 10px;
+    align-items: flex-start;
+    margin-top: 100px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.header h1 {
     font-family: 'Anton', sans-serif;
     font-size: 45px;
-    color: #8e0b07;
+    text-align: center;
+    color:rgb(181, 7, 7)
 }
+
+.popular-question {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.things-to-do h2 {
+    font-family: 'Anton';
+    font-size: 35px;
+    text-align: left;
+    color:rgb(181, 7, 7)
+}
+
+.to-see h2 {
+    font-family: 'Anton';
+    font-size: 35px;
+    text-align: left;
+    color:rgb(181, 7, 7)
+}
+
+.guided-tour {
+    text-align: left;
+    color:rgb(181, 7, 7)
+}
+.Learn-more h1 {
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 0px;
+}
+
+.Learn-more a {
+    float: right;
+}
+
