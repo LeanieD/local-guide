@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Join a Stranger Things guided tour</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <h1>STRANGER THINGS GUIDED TOUR</h1>
+  </header>
+
+  <section class="Welcome">
+    <img src="image/van.jpg" alt="Stranger Things Tour">
+
+    <p>
+        Walk through the real-life Hawkins, Indiana in Downtown Jackson, Georgia.
+        Visit filming locations featured throughout Stranger Things and discover
+        behind-the-scenes stories from the hit Netflix series.
+    </p>
+  </section>
+
+  <section class="tour-highlights">
+
+    <h2>Tour Highlights</h2>
+
+    <ul>
+        <li>Historic Downtown Jackson Square</li>
+        <li>Hawkins Public Library filming location</li>
+        <li>Famous Stranger Things alley scenes</li>
+        <li>Photo opportunities and murals</li>
+        <li>Exclusive local stories from your guide</li>
+        <li>Stops at fan-favorite attractions</li>
+    </ul>
+
+  </section>
+
+  <section class="booking-form">
+
+    <h2>Book Your Tour</h2>
+
+    <form>
+
+        <label for="name">Full Name</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" required>
+
+        <label for="date">Tour Date</label>
+        <input type="date" id="date" required>
+
+        <label for="people">Number of Guests</label>
+        <select id="people">
+            <option>1 Guest</option>
+            <option>2 Guests</option>
+            <option>3 Guests</option>
+            <option>4 Guests</option>
+            <option>5+ Guests</option>
+        </select>
+
+        <label for="notes">Special Requests</label>
+        <textarea id="notes" rows="4"></textarea>
+
+        <button type="submit">Reserve My Spot</button>
+
+    </form>
+
+  </section>
+
+  <footer>
+    <p>Explore Jackson, Georgia • Home of Real-Life Hawkins</p>
+  </footer>
+
+</body>
+
+<style>
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #111;
+    color: white;
+}
+
+header {
+    background: #8b0000;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 3rem;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.Welcome {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.Welcome img {
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.Welcome p {
+    font-family: "Libre Bodoni", serif;
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.booking-form {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #222;
+    border-radius: 10px;
+}
+
+.booking-form h2 {
+    color: #ff3333;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.booking-form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.booking-form textarea {
+    resize: vertical;
+}
+
+.booking-form button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 25px;
+    background-color: #c62828;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.booking-form button:hover {
+    background-color: #8b0000;
+}
+
+.tour-highlights {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.tour-highlights h2 {
+    color: #ff3333;
+    text-align: center;
+}
+
+.tour-highlights ul {
+    font-size: 1.1rem;
+    line-height: 2;
+}
+
+footer {
+    background-color: #000;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+</style>
