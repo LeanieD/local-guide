@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 3 - Hawkins Dining & Shopping Guide</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<section class="intro">
+    <h1>Eat & Shop Like You're in Hawkins</h1>
+    <p>
+        After exploring filming locations from Stranger Things, fuel up with
+        local favorites and discover unique treasures throughout Historic Jackson.
+        Whether you're hunting for waffles, burgers, or Hawkins-inspired souvenirs,
+        there's an adventure waiting around every corner.
+    </p>
+</section>
+
+<section class="section">
+    <h2>Hawkins Dining Stops</h2>
+
+    <div class="card-grid">
+
+        <div class="card">
+            <h3>Bradley's on the Square</h3>
+            <p>
+                Bradley's offers
+                Southern hospitality and classic comfort food. It's the perfect place
+                to recharge after a day of exploring the streets that doubled as
+                downtown Hawkins.
+            </p>
+            <img src="./image/Bradley.webp" alt="Inside of Bradley Resturaunt">
+        </div>
+
+        <div class="card">
+            <h3>Lucy Lu's</h3>
+            <p>
+                A colorful local favorite serving fresh flavors and a welcoming
+                atmosphere. Grab a meal with your party before your next adventure
+                through the Upside Down.
+            </p>
+            <img src="./image/lucy.jpg" alt="Outside Picture of Lucy Lu's">
+        </div>
+
+        <div class="card">
+            <h3>Smashin Burgers</h3>
+            <p>
+                Craving something delicious after escaping Demogorgons?
+                Smashin Burgers delivers juicy burgers, crispy fries, and
+                satisfying comfort food worthy of the Hawkins crew.
+            </p>
+            <img src="./image/SmashinBurger.jpg" alt="Outside of Smashin Burger">
+        </div>
+
+        <div class="card">
+            <h3>Buddy Blu's</h3>
+            <p>
+                Known for its lively atmosphere and local charm, Buddy Blu's
+                is a great spot to gather with friends and relive your favorite
+                Stranger Things moments over a sweet treat.
+            </p>
+            <img src="./image/buddyblu.jpg" alt="buddyblu icecream cone with Stranger Things background">
+        </div>
+
+    </div>
+</section>
+
+<section class="section">
+    <h2>Hawkins Shopping Destinations</h2>
+
+    <div class="card-grid">
+
+        <div class="card">
+            <h3>Hawkins Headquarters</h3>
+            <p>
+                The ultimate destination for Stranger Things fans. Browse themed
+                merchandise, collectibles, apparel, and memorabilia inspired by
+                the hit series and Jackson's role as Hawkins, Indiana.
+            </p>
+            <img src="./image/headquarters.jpg" alt="Outside of Hawkins Headquarters">
+        </div>
+
+        <div class="card">
+            <h3>Vintage Vineyard</h3>
+            <p>
+                Discover vintage finds, unique gifts, and one-of-a-kind treasures.
+                Every item feels like something Dustin, Lucas, or Max might uncover
+                during an adventure around town.
+            </p>
+            <img src="./image/vineyard.jpg" alt="Display of clothes at Vintage vineyard">
+        </div>
+
+        <div class="card">
+            <h3>Lena Jane</h3>
+            <p>
+                A charming boutique filled with stylish gifts, home décor, and
+                locally inspired merchandise. It's the perfect stop for visitors
+                looking to bring a piece of Jackson home.
+            </p>
+            <img src="./image/lenajane.webp" alt="Outside of lenajane in downtown Jackson">
+        </div>
+
+    </div>
+</section>
+
+<div class="footer-note">
+    <p>
+        ⚡ Explore. Eat. Shop. And keep an eye out for any mysterious portals
+        hiding around Hawkins...
+    </p>
+</div>
+
+</body>
+</html>
+
+<style>
+body {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: .7px;
+    background: linear-gradient(to bottom, #111, #111);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.intro {
+    background: url('images/hawkins-night.jpg') center/cover no-repeat;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 3rem;
+    color: #e50914;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-shadow: 0 0 15px #e50914;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: auto;
+    font-family: "Libre Bodoni", serif;
+}
+
+.section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 60px 20px;
+}
+
+.section h2 {
+    color: #e50914;
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 12px;
+    padding: 25px;
+    transition: .3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px rgba(229,9,20,.5);
+}
+
+.card h3 {
+    color: #6116d8;
+    letter-spacing: 1.5px;
+    margin-top: 0;
+}
+
+.card p {
+    line-height: 1.6;
+    font-family: "Libre Bodoni", serif;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.footer-note {
+    text-align: center;
+    padding: 40px 20px;
+    color: #ccc;
+    border-top: 1px solid rgba(255,255,255,.2);
+}
+</style>
